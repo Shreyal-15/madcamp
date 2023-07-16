@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(img1.jpg);
+	opacity: 0.9;
+	background-position: center;
+	background-size: cover;
+	height: 104vh;
+}
+.navbar{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo{
+	color: white;
+	font-size: 23px;
+	font-family: Helvetica;
+	padding-left: 20px;
+	float: left;
+	padding-top: 45px;
+}
+.navigtion{
+	width: 400px;
+	float: left;
+	height: 90px;
+}
+
+ ul{
+    float: right;
+    display: flex;
+    margin: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    text-align: end;
+ }
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 165px;
+    margin-top: 45px;
+    font-size: 14px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: Helvetica;
+    transition: 0.5s ease-in-out;
+    text-align: right;
+
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+.content{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+}
+
+.content h1{
+	font-family: Helvetica;
+	font-size: 50px;
+	padding-left: 20px;
+	margin-top: 19%;
+	letter-spacing: 2px;
+}
+
+.content .cn{
+	width: 150px;
+	height: 40px;
+	background: orange;
+	border: none;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.content .cn a{
+	text-decoration: none;
+	color: white;
+	transition: 0.3 ease;
+}
+ .content span{
+ 	color: orange;
+ }
+
+.content h1{
+	font-size: 80px;
+}
+.contact_way{
+	padding: 15px;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.contact_way i{
+	font-size: 15px;
+	color: white;
+}
+.icon-container {
+    position: absolute;
+    bottom: 250px;
+    right: 70px;
+    
+    
+  }
+  
+  .icon-container a {
+    display: inline-block;
+    margin-left: 100px;
+    text-decoration: none;
+   }
+  
+  .icon-container img {
+    width: 30px;
+    height: 30px;
+    color: white;
+    color: white;
+  }
+  .icon-container  h1, h2, h3{
+  	font-size: 15px;
+  	text-align: center;
+  	font-weight: bold;
+  }
